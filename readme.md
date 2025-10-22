@@ -8,12 +8,14 @@ Please note that the currently available code has not undergone a thorough refin
 ## Project Structure
 
 ### Diverse-Data-Generation
-There are three datasets used in this work, MathQA, MAWPS, SVAMP.
 This module is mainly responsible for generating diversified variants of the original MWP questions for data augmentation, and dynamically evaluating the learning status of the student model to generate targeted training examples for weak points.
 
 
 ### Reflective-Dual-Model-Collaborative-Reasoning
 The framework aims to identify and correct numerical calculation and logical errors that occur in the reasoning process of the thought chain through interactive verification between the generation model and the evaluation model.
+
+## Data
+There are three datasets used in this work, MathQA, MAWPS, SVAMP.
 
 ## Environment Configuration
 
