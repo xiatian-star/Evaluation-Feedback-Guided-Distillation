@@ -62,5 +62,4 @@ python train_aug_svamp.py -gpu 1 -epochs 40 -generation -emb_name "roberta-large
 3. The model file path needs to be adjusted based on your needs.
 
 
-## 许可证
-MIT License
+
